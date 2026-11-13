@@ -1,0 +1,14 @@
+{
+  "delegators": [
+    {"sAMAccountName": "SRV01$", "msDS-AllowedToDelegateTo": ["dhcp/DATABASE01", "dhcp/DATABASE01.inlanefreight.local", "dmserver/DBSRV003", "www/EXCH03"]}
+  ],
+  "registrations": [
+    {"sAMAccountName": "DBSRV003$", "servicePrincipalName": ["dmserver/DBSRV003", "HOST/DBSRV003"]},
+    {"sAMAccountName": "EXCH03$", "servicePrincipalName": ["www/EXCH03", "HOST/EXCH03"]}
+  ],
+  "computers": [
+    {"sAMAccountName": "SRV01$", "dNSHostName": "srv01.inlanefreight.local"},
+    {"sAMAccountName": "DBSRV003$", "dNSHostName": "dbsrv003.inlanefreight.local"},
+    {"sAMAccountName": "EXCH03$", "dNSHostName": "exch03.inlanefreight.local"}
+  ]
+}
